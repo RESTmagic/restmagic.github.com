@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>RESTmagic: Make a nice API and we'll do the REST by RESTmagic</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">RESTmagic: Make a nice API and we'll do the REST</h1>
+        <p class="header">native when you need it, html when you don't</p>
+
+
+
+        <ul>
+          <li><a class="buttons github" href="https://github.com/RESTmagic">GitHub Profile</a></li>
+        </ul>
+
+      </header>
+      <section>
+        <h3>Overview.</h3>
+
+<p>RESTmagic is a framework for that framework you already deployed, your RESTFUL api.  Light or no configuration will tell the framework how your resources are organized, and where to get the appropriate templates.  Before it joins those together with your choice of mustache flavored templating, it will check if you have a native view instead to present.  The whole framework is built to be easily customized with as much or as little magic as your want.</p>
+
+<h3>Magic?</h3>
+
+<p>We handle all urls that are in the path of your api.  Check for native views, or load up our <code>RMViewController</code> with your json and html template.  We store your resources in our own cache.  This approaches minimizes network traffic, intelligently caches resources based on your headers, and give you speed and native control when you need it. The best thing... if you have an HTML based template for every resource, it will mean old versions of your app still can get html based views of things that are native in new versions. </p>
+
+<h3>Labor of love</h3>
+
+<p>RESTmagic was built to solve the problems of the current Facebook iOS app and to play around with CocoaPods, ARC and the new modernized objective-c syntax.  It was built to replace the one thing that made Three20 magic... <code>TTNavigator</code></p>
+
+<h3>Customization</h3>
+
+<p>*Define your API attributes or write custom code to parse it
+*BYO Templating Engine
+*BYO UIView or nib to handle styling the webview
+*BYO resource parser... YAML, XML, PLIST, Protocol Buffers</p>
+
+<h3>The future conan?</h3>
+
+<p>Not fully sure yet... taking in code blocks instead of subclassing?  <code>TTNavigator</code> style persistance?  Beard based templating.  Three20 style transitions? Pre-rendering future pages?</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+		
+  </body>
+</html>
